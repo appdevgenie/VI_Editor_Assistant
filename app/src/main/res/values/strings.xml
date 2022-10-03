@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">vi Editor Assistant</string>
+    <string name="vi_commands">vi Commands</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="insert">Insert</string>
+    <string name="yank">Yank</string>
+    <string name="paste">Paste</string>
+    <string name="other">Other</string>
+    <string name="info">Info</string>
+    <string name="move_screen">Move screen</string>
+    <string name="move_cursor">Move cursor</string>
+    <string name="about">About</string>
+    <string name="modes">Modes</string>
+
+
+</resources>

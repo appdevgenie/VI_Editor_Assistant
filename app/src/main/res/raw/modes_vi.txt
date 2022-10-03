@@ -1,0 +1,17 @@
+
+vi Editor has two modes: Command Mode and Insert Mode. 
+
+The editor starts in Command Mode, unlike most word processors.
+The editor switches to Insert Mode once commands such as insert and append are used.
+
+The [Esc] Escape button is used to return to Command Mode.
+[Esc] Escape is not a toggle, therefore it may be pressed a number of times to ensure that the editor has returned to Command Mode
+
+Command Mode:
+
+Keyboard letters have administrative functions, such as saving, moving the cursor or screen, cutting and pasting, and finding and replacing.
+
+
+Insert Mode:
+
+Keyboard has normal functionality, used to enter text.

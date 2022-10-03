@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="vi_main">
+        <item>Modes</item>
+        <item>About</item>
+        <item>Start vi Editor</item>
+        <item>Exit vi Editor</item>
+        <item>Insert, append</item>
+        <item>Delete</item>
+        <item>Yank, copy</item>
+        <item>Search</item>
+        <item>Paste</item>
+        <item>Move cursor</item>
+        <item>Move screen</item>
+        <item>Other</item>
+        <item>Info</item>
+    </string-array>
+    <string-array name="vi_main_desc">
+        <item>Command and Insert</item>
+        <item>Command types</item>
+        <item>Open file</item>
+        <item>Close file</item>
+        <item>Character, line, word</item>
+        <item>Character, line, word</item>
+        <item>Line, word</item>
+        <item>Character, word</item>
+        <item>Paste position</item>
+        <item>Cursor position</item>
+        <item>Screen position</item>
+        <item>Repeat, join, undo…</item>
+        <item>Rate, disclaimer</item>
+    </string-array>
+    <string-array name="start_title">
+        <item>vi file</item>
+        <item>vi file1 file2</item>
+        <item>view file</item>
+        <item>vi -R file</item>
+        <item>vi -r file</item>
+        <item>vi + file</item>
+    </string-array>
+    <string-array name="start_disc">
+        <item>Opens \'file\' in vi, or creates a file named \'file\' if it does not exist</item>
+        <item>Opens files sequentially</item>
+        <item>Opens \'file\' in read-only mode</item>
+        <item>Opens \'file\' in read-only mode</item>
+        <item>Recovers \'file\' after system crash</item>
+        <item>Opens \'file\' at last line</item>
+    </string-array>
+    <string-array name="exit_title">
+        <item>ZZ</item>
+        <item>:x</item>
+        <item>:wq</item>
+        <item>:w</item>
+        <item>:w!</item>
+        <item>:q</item>
+        <item>:q!</item>
+        <item>:wq file</item>
+    </string-array>
+    <string-array name="exit_disc">
+        <item>Saves changes and exits</item>
+        <item>Saves changes and exits</item>
+        <item>Saves changes and exits</item>
+        <item>Saves changes</item>
+        <item>Saves without quiting</item>
+        <item>Quit</item>
+        <item>Quit without saving changes</item>
+        <item>Saves as \'file\' and exits</item>
+    </string-array>
+    <string-array name="insert_title">
+        <item>i</item>
+        <item>I</item>
+        <item>a</item>
+        <item>A</item>
+        <item>o</item>
+        <item>O</item>
+        <item>r</item>
+        <item>R</item>
+        <item>S</item>
+        <item>s</item>
+    </string-array>
+    <string-array name="insert_disc">
+        <item>Insert text before cursor</item>
+        <item>Insert text at beginning of current line</item>
+        <item>Append text after cursor</item>
+        <item>Append text at the end of current line</item>
+        <item>Open and insert text in new line below current line</item>
+        <item>Open and insert text in new line above current line</item>
+        <item>Replace single character at cursor position</item>
+        <item>Replace multiple characters starting with character at cursor position</item>
+        <item>Substitute entire line</item>
+        <item>Substitute a single character</item>
+    </string-array>
+    <string-array name="delete_title">
+        <item>x</item>
+        <item>X</item>
+        <item>dw</item>
+        <item>dd</item>
+        <item>D</item>
+        <item>[ctrl] w</item>
+        <item>[ctrl] u</item>
+        <item>d$</item>
+        <item>d^</item>
+        <item>ndd</item>
+        <item>nx</item>
+    </string-array>
+    <string-array name="delete_disc">
+        <item>Deletes a single character at cursor position</item>
+        <item>Deletes a single character before cursor position</item>
+        <item>Deletes from cursor position to next word</item>
+        <item>Deletes entire line cursor is on</item>
+        <item>Deletes remainder of line, starting at cursor position</item>
+        <item>Deletes previous word</item>
+        <item>Deletes from cursor to beginning of line</item>
+        <item>Deletes from cursor to end of line</item>
+        <item>Deletes to first character in line, preserving indentation</item>
+        <item>Deletes n number of lines (2dd deletes 2 lines)</item>
+        <item>Deletes n number of characters, starting with character under cursor (2x deletes 2 characters)</item>
+    </string-array>
+    <string-array name="copy_title">
+        <item>yw</item>
+        <item>yy</item>
+        <item>:y</item>
+        <item>y^</item>
+        <item>y0</item>
+        <item>y$</item>
+        <item>Y</item>
+        <item>nyy</item>
+    </string-array>
+    <string-array name="copy_disc">
+        <item>Yank word</item>
+        <item>Yank current line</item>
+        <item>Yank current line</item>
+        <item>Yank from cursor to first character on line</item>
+        <item>Yank from cursor to beginning of line</item>
+        <item>Yank from cursor to end of line</item>
+        <item>Yank current line</item>
+        <item>Yank n number of lines (2yy copies 2 lines)</item>
+    </string-array>
+    <string-array name="search_title">
+        <item>/word</item>
+        <item>"?"</item>
+        <item>n</item>
+        <item>N</item>
+        <item>*</item>
+        <item>#</item>
+        <item>fx</item>
+        <item>Fx</item>
+        <item>tx</item>
+        <item>Tx</item>
+    </string-array>
+    <string-array name="search_disc">
+        <item>Search forward for \'word\'</item>
+        <item>Repeats previous \'/\' search</item>
+        <item>Repeat last search in same direction</item>
+        <item>Repeat last search in opposite direction</item>
+        <item>Search forward for word under the cursor</item>
+        <item>Search backward for word under the cursor</item>
+        <item>Search forward for next \'x\' on same line</item>
+        <item>Search backward for previous \'x\' on same line</item>
+        <item>Search forward for character before next \'x\'</item>
+        <item>Search backward for character after previous \'x\' on same line</item>
+    </string-array>
+    <string-array name="paste_title">
+        <item>p</item>
+        <item>P</item>
+    </string-array>
+    <string-array name="paste_disc">
+        <item>Paste after cursor</item>
+        <item>Paste before cursor</item>
+    </string-array>
+    <string-array name="move_title">
+        <item>H</item>
+        <item>M</item>
+        <item>L</item>
+        <item>l</item>
+        <item>h</item>
+        <item>k</item>
+        <item>j</item>
+        <item>^</item>
+        <item>[return]</item>
+        <item>$</item>
+        <item>O</item>
+        <item>+</item>
+        <item>-</item>
+        <item>w</item>
+        <item>b</item>
+        <item>(</item>
+        <item>)</item>
+        <item>{</item>
+        <item>}</item>
+        <item>G</item>
+        <item>xG</item>
+        <item> </item>
+        <item>Right arrow</item>
+        <item>Left arrow</item>
+        <item>Up arrow</item>
+        <item>Down arrow</item>
+    </string-array>
+    <string-array name="move_disc">
+        <item>Highest visible line on screen (top line)</item>
+        <item>Middle of screen (center)</item>
+        <item>Lowest visible line on screen (bottom line)</item>
+        <item>Move right</item>
+        <item>Move left</item>
+        <item>Move up</item>
+        <item>Move down</item>
+        <item>First character on current line</item>
+        <item>First character on next line</item>
+        <item>Last column on current line</item>
+        <item>First column on current line</item>
+        <item>First character on next line</item>
+        <item>First character on previous line</item>
+        <item>Beginning of next word</item>
+        <item>Beginning of previous word</item>
+        <item>Beginning of current sentence</item>
+        <item>Beginning of next sentence</item>
+        <item>Move a paragraph back</item>
+        <item>Move a paragraph forward</item>
+        <item>First character on last line</item>
+        <item>First character on previous line</item>
+        <item>For keyboards that have "arrow keys":</item>
+        <item>Move right</item>
+        <item>Move left</item>
+        <item>Move up</item>
+        <item>Move down</item>
+    </string-array>
+    <string-array name="move_screen_title">
+        <item>[ctrl] d</item>
+        <item>[ctrl] f</item>
+        <item>[ctrl] u</item>
+        <item>[ctrl] b</item>
+        <item>[ctrl] e</item>
+        <item>[ctrl] y</item>
+        <item>G</item>
+        <item>xG</item>
+        <item>z+</item>
+        <item>z</item>
+        <item>z-</item>
+        <item>^F</item>
+        <item>^B</item>
+        <item>^D</item>
+        <item>^U</item>
+    </string-array>
+    <string-array name="move_screen_disc">
+        <item>Move forward half screen</item>
+        <item>Move forward full screen</item>
+        <item>Move backward half screen</item>
+        <item>Move backward full screen</item>
+        <item>Move up one line</item>
+        <item>Move down one line</item>
+        <item>Last line in file</item>
+        <item>Move to line x</item>
+        <item>Move line to top of screen</item>
+        <item>Move line to middle of screen</item>
+        <item>Move line to bottom of screen</item>
+        <item>Move forward one screen</item>
+        <item>Move backward one line</item>
+        <item>Move forward half screen</item>
+        <item>Move backward half screen</item>
+    </string-array>
+    <string-array name="other_title">
+        <item>.</item>
+        <item>u</item>
+        <item>U</item>
+        <item>J</item>
+        <item>[ctrl] I</item>
+        <item>[ctrl] G</item>
+        <item>[ctrl] g</item>
+        <item>:f</item>
+        <item>:f filename</item>
+        <item>:cd dirname</item>
+        <item>~</item>
+        <item>:.=</item>
+        <item>:=</item>
+    </string-array>
+    <string-array name="other_disc">
+        <item>Repeat last edit command</item>
+        <item>Undo last change</item>
+        <item>Undo all changes on line</item>
+        <item>Join two lines</item>
+        <item>Redraws screen</item>
+        <item>Show current filename</item>
+        <item>Show current filename and line count</item>
+        <item>Show current filename and line count</item>
+        <item>Rename current file to \'filename\'</item>
+        <item>Change directory to \'dirname\'</item>
+        <item>Capitalize character</item>
+        <item>Current line number</item>
+        <item>Total number of lines</item>
+    </string-array>
+
+</resources>

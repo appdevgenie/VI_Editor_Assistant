@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+    //buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "appdevgenie.eugene.vieditorassistant"
+        minSdkVersion 14
+        targetSdkVersion 32
+        versionCode 11
+        versionName "3.3.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //implementation 'androidx.appcompat:appcompat:1.1.0'
+    //implementation 'androidx.recyclerview:recyclerview:1.1.0'
+}

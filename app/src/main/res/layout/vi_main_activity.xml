@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="appdevgenie.eugene.vieditorassistant.fragments.ViMainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/vi_main_fragment" />
+
+</LinearLayout>

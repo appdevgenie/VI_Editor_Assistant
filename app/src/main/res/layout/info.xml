@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    android:background="@null"
+    android:fillViewport="true"
+    android:padding="5dp"
+    android:scrollbars="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:paddingBottom="100dp">
+
+        <TextView
+            android:id="@+id/tvListLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:gravity="center"
+            android:textColor="#ff0099cc"
+            android:textSize="25sp"
+            android:typeface="monospace" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:minHeight="100dp"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:id="@+id/ivAbout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical|center"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_info" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvAboutName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/app_name"
+                    android:textColor="#FFF"
+                    android:textSize="18sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tvInfoVersion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#aaa" />
+
+                <TextView
+                    android:id="@+id/tvInfoEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:autoLink="email"
+                    android:text="appdevgenie@gmail.com" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvInfoRate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Rate App"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/bInfoRate"
+                style="@style/btnStyleArsenic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rate"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvInfoDisclaimer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Disclaimer"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/bInfoDisclaimer"
+                style="@style/btnStyleArsenic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disclaimer"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvInfoAbout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/about"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/bInfoAbout"
+                style="@style/btnStyleArsenic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:typeface="serif" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

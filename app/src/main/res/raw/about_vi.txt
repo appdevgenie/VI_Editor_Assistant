@@ -1,0 +1,17 @@
+﻿The vi Editor is a text based editor used in Linux and Unix for editing configuration files and creating text documents. 
+vi Editor is case sensitive, so ensure that [Caps lock] is off before starting. 
+
+Most commands execute when typed except "line-orientated commands" that execute once the return [Enter] is pressed.
+The "line-orientated commands" contain:
+
+":" [colon]
+
+"!" [exclamation mark]
+
+"/" [slash]
+
+"?" [question mark]
+
+In addition to displaying information and errors, the last line on the screen is also used to display the input for "line-orientated commands" ("/", "?", ":" and "!").
+When a "line-oriented command" is executed, the editor will enter text input mode on the last line of the screen, using the respective command characters as prompt characters. 
+

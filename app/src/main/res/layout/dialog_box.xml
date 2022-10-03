@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:gravity="fill"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvDialogBoxLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#FFF" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/tvDialogBoxInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="email"
+                android:paddingBottom="5dp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <Button
+            android:id="@+id/bDialogBoxOk"
+            style="@style/btnStyleArsenic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+    </LinearLayout>
+
+</LinearLayout>

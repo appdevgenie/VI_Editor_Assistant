@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="disclaimer_text">
+
+        End-User License Agreement\n\n
+
+        By using this application you understand and consent to the following:\n\n
+
+        THE USER ACKNOWLEDGES THAT THIS APPLICATION MAY NOT BE FREE FROM DEFECTS AND MAY NOT SATISFY ALL OF USER\'S NEEDS.\n\n
+
+        The software is provided "as is" without any warranty of any kind.\n\n
+
+        A great deal of time and effort has been taken to ensure the accuracy of all resources used in this application, but this does not guarantee it to be free from bugs.\n
+        By using this application, you accept full responsibility for results and any damages that may result from use.\n\n
+
+        AppDevGenie (developer) will not be held responsible for any incident that may occur during or due to proper or improper usage of application.\n\n
+
+        This application may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any language, natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable format, or by any other form or means without prior consent, in writing, from the developer.\n\n
+
+        email: appdevgenie@gmail.com
+    </string>
+
+
+</resources>
